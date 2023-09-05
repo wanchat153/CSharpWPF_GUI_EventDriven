@@ -24,5 +24,15 @@ namespace CSharpWPF_GUI_EventDriven
         {
             InitializeComponent();
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void SubmitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hi " + textName.Text);
+        }
     }
 }

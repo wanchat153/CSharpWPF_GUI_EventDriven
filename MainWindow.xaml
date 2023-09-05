@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:CSharpWPF_GUI_EventDriven"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFE6E6E6">
+        <TextBox x:Name="textName" HorizontalAlignment="Center" Margin="0,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314" Height="26" TextChanged="TextBox_TextChanged" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Height="26" Margin="164,75,0,0" TextWrapping="Wrap" Text="NAME :" VerticalAlignment="Top" Width="74" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="SubmitBtn" Content="Submit" HorizontalAlignment="Center" Height="60" Margin="0,289,0,0" VerticalAlignment="Top" Width="220" FontSize="24" FontWeight="Bold" Foreground="#FF26833A" BorderBrush="#FF087F04" Background="#FFE8FFD2" BorderThickness="2,2,2,2" Click="SubmitBtn_Click"/>
+
     </Grid>
 </Window>
